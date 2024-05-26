@@ -7,4 +7,12 @@ public class Ball {
     public Ball(int pos, int number) {
 
     }
+
+    boolean isEqualPos(Ball targetBall) {
+        return this.pos == targetBall.pos;
+    }
+
+    boolean isEqualNumber(Ball targetBall) {
+        return this.number == targetBall.number;
+    }
 }
